@@ -7,12 +7,14 @@ html, body {
 
     color: black;
 
-    font-family: font-family: 'Old Standard TT', serif;
+    font-family: 'Judson', serif;
     font-size: 18px;
     line-height: 28px;
+    word-spacing: 2px;
 }
-h1,h2,h3{
-	font-family: font-family: 'Cabin', sans-serif;
+.title{
+	font-family: 'Quando', serif;
+	font-size: 1.5rem;
 }
 nav{
 	background-color: #D4D4D4;
@@ -21,10 +23,6 @@ nav{
 	align-content:center;
 	padding: 5px;
 	border-bottom: solid;
-}
-.title{
-	font-size: 2rem;
-	font-family: 'Open Sans', sans-serif;
 }
 nav a{
 	color: black;
@@ -58,6 +56,10 @@ nav a{
     border-style: solid;
     margin-right: 20px;
 }
+.content_1{
+	padding: 20px;
+	margin-bottom: 10px;
+}
 .content_2{
 	display: flex;
 	justify-content:center;
@@ -79,7 +81,25 @@ td{
 
 }
 .navi_button{
+	padding: 50px;
+	text-align: center;
+}
+/*.home{
 	
+	background-image: url(1435336213_button-white.png);
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	border:none;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 8em;
+	height: 2em;
+}*/
+
+.home{
+	font-family: 'Pacifico', cursive;
+	border-radius: 10px;
+	font-size: 25px;
 }
 
 footer{
