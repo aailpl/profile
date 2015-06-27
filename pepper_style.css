@@ -63,6 +63,7 @@ nav a{
 .content_2{
 	display: flex;
 	justify-content:center;
+	margin-bottom: px;
 }
 table{
 	border-collapse: collapse;
@@ -80,10 +81,7 @@ td{
 	height: 200px;
 
 }
-.navi_button{
-	padding: 50px;
-	text-align: center;
-}
+
 /*.home{
 	
 	background-image: url(1435336213_button-white.png);
@@ -95,11 +93,56 @@ td{
 	width: 8em;
 	height: 2em;
 }*/
-
+.navi_buttons{
+	text-align: center;
+}
 .home{
 	font-family: 'Pacifico', cursive;
 	border-radius: 10px;
 	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.follow{
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+    box-sizing: border-box;
+
+}
+
+.follow_text, .facebook, .twitter, .dribble{
+	display: inline;
+	margin-right: 20px;
+}
+.facebook, .twitter, .dribble{
+	padding: 20px;
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%
+}
+
+.facebook{
+	background-image: url(facebook_bw.jpg);
+}
+.facebook:hover{
+	background-image: url(facebook.jpg);
+}
+
+.twitter{
+	background-image: url(twitter_bw.jpg);
+}
+.twitter:hover{
+	background-image: url(twitter.jpg);
+}
+
+.dribble{
+	background-image: url(dribbble_bw.jpg);
+}
+.dribble:hover{
+	background-image: url(dribbble.jpg);
 }
 
 footer{
